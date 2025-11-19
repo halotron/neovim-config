@@ -5,7 +5,7 @@ TARGET="$1"
 
 case $TARGET in
     "lazy")
-        ln -sf ~/configvim/configlazy/nvim-lazy ~/.config/nvim
+        ln -sf ~/configvim/configlazy ~/.config/nvim
         echo "Switched to LazyVim"
         ;;
     "original")
@@ -14,7 +14,7 @@ case $TARGET in
         ;;
     *)
 
-        ln -sf ~/configvim/configlazy/nvim-lazy ~/.config/nvim
+        ln -sf ~/configvim/configlazy ~/.config/nvim
         echo "Switched to LazyVim"
         ;;
 esac
